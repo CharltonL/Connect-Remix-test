@@ -73,8 +73,15 @@ const route2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
 const assets = [
   "/entry.worker.js",
   "/favicon.ico",
+  "/jsl_flame_128.png",
   "/logo-dark.png",
-  "/logo-light.png"
+  "/logo-light.png",
+  "/manifest.webmanifest",
+  "/favicons/android-chrome-192x192.png",
+  "/favicons/android-chrome-512x512.png",
+  "/favicons/apple-touch-icon.png",
+  "/favicons/favicon-16x16.png",
+  "/favicons/favicon-32x32.png"
 ];
 const routes = {
   "root": {
