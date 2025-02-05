@@ -6,6 +6,10 @@ html, body {
   @apply h-full overflow-x-hidden;
 }
 
+.header {
+  padding-top: env(safe-area-inset-top);
+}
+
 .bg-scene-pic {
   background-image: url('/app/components/backgroundScenePic.jpeg');
   @apply bg-cover bg-center bg-no-repeat fixed w-full h-full;
