@@ -8,9 +8,6 @@ dependencies:
   '@heroicons/react':
     specifier: ^2.2.0
     version: 2.2.0(react@18.3.1)
-  '@remix-pwa/worker-runtime':
-    specifier: ^2.1.4
-    version: 2.1.4
   '@remix-run/express':
     specifier: ^2.15.2
     version: 2.15.3(express@4.21.2)(typescript@5.7.3)
@@ -1227,18 +1224,6 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
-
-  /@remix-pwa/worker-runtime@2.1.4:
-    resolution: {integrity: sha512-EG6A5wss2waXWckQ0dTD6Ki9CnCqV2VrdSRfXLiG4k9yj1/7LNT8jF3c6EPid/pyqVW4nKOwHPvOOlLc8kEplg==}
-    engines: {node: '>=18.0.0'}
-    peerDependencies:
-      '@remix-run/server-runtime': ^1.19.2 || ^2.0.0
-    peerDependenciesMeta:
-      '@remix-run/server-runtime':
-        optional: true
-    dependencies:
-      '@remix-run/router': 1.22.0
-    dev: false
 
   /@remix-run/dev@2.15.3(@remix-run/react@2.15.3)(typescript@5.7.3)(vite@5.4.14):
     resolution: {integrity: sha512-agndQJHs7qISPXXH/Zet0VHWvcwtQGoEOXxltjerNQ2zWcAJQBm9i06tS6n6v/ZP0sHIVdo/IsvgAA4wetqmNw==}

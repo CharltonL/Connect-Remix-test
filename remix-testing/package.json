@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
-    "@remix-pwa/worker-runtime": "^2.1.4",
     "@remix-run/express": "^2.15.2",
     "@remix-run/node": "^2.15.2",
     "@remix-run/react": "^2.15.2",

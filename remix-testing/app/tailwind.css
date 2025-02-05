@@ -4,10 +4,13 @@
 
 html, body {
   @apply h-full overflow-x-hidden;
+  overscroll-behavior: none;
+
 }
 
 .header {
   padding-top: env(safe-area-inset-top);
+  overscroll-behavior: contain;
 }
 
 .bg-scene-pic {
