@@ -2,11 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  @apply bg-white dark:bg-gray-950;
+html, body {
+  @apply h-full overflow-x-hidden;
+}
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+.bg-scene-pic {
+  background-image: url('/app/components/backgroundScenePic.jpeg');
+  @apply bg-cover bg-center bg-no-repeat fixed w-full h-full;
+}
+.transpar-home-card {
+  @apply flex flex-col space-y-2 px-6 py-6  min-h-36 w-full items-center justify-center bg-white bg-opacity-80; /* Applying Tailwind utilities */
 }
